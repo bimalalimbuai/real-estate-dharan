@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharan Real Estate - Rooms, Flats, Houses & Land for Rent, Buy, Sell</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-700">Dharan Properties</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#services" class="text-gray-600 hover:text-blue-700">Services</a>
+                <a href="#areas" class="text-gray-600 hover:text-blue-700">Areas</a>
+                <a href="#why-us" class="text-gray-600 hover:text-blue-700">Why Us</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 shadow transition-all">Inquire Now</a>
+            </div>
+            <div class="md:hidden">
+                <!-- Mobile menu button can be added here if needed -->
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 shadow transition-all text-sm">Inquire</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section (Attention) -->
+        <section class="bg-gradient-to-r from-blue-700 to-blue-900 text-white min-h-[70vh] flex items-center">
+            <div class="container mx-auto px-6 py-24 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Find Your Perfect Property in Dharan</h1>
+                <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Rent, Buy, or Sell Rooms, Flats, Houses, Land, and Commercial Spaces. We cover all of Dharan.</p>
+                <a href="#contact" class="bg-yellow-400 text-blue-900 font-bold px-8 py-3 rounded-md text-lg hover:bg-yellow-300 shadow-lg transition-all">
+                    Get a Free Consultation
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section (Interest) -->
+        <section id="services" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">What We Offer</h2>
+                    <p class="text-lg text-gray-600 max-w-xl mx-auto">Your one-stop solution for all real estate needs in Dharan.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6-4h.01M12 12h.01M15 12h.01M12 15h.01M15 15h.01M9 15h.01"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">For Rent</h3>
+                        <p class="text-gray-600">Find the best Rooms, Flats, Apartments, and Houses for rent at affordable prices.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">For Buy & Sell</h3>
+                        <p class="text-gray-600">We facilitate transparent deals for buying and selling Land, Houses, and Apartments.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Commercial Spaces</h3>
+                        <p class="text-gray-600">Looking for Shutters, Office Space, or commercial land? We have the best locations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas Section -->
+        <section id="areas" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Explore All Areas of Dharan</h2>
+                    <p class="text-lg text-gray-600 max-w-xl mx-auto">We have listings in every major locality. Select your preferred area in the form below.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Bhanu Chowk Area</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Pubali (East) Dharan</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Pachali (West) Dharan</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Bargachhi Area</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Tinkune Area</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Bijayapur Area</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Srijana Chowk</div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center font-semibold text-lg text-gray-700">Chatara Line</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us (Desire) -->
+        <section id="why-us" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Why Choose Us?</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div class="text-center">
+                        <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Deep Local Expertise</h3>
+                        <p class="text-gray-600">We live and breathe Dharan. We know every locality, price trend, and opportunity.</p>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Transparent & Honest</h3>
+                        <p class="text-gray-600">No hidden fees, no surprises. We believe in clear communication and fair deals.</p>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Full-Service Support</h3>
+                        <p class="text-gray-600">From the first call to handing over the keys, we guide you through every step.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inquiry Form Section (Action) -->
+        <section id="contact" class="py-16 md:py-24 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Get Started Today</h2>
+                    <p class="text-lg text-blue-100 max-w-xl mx-auto">Fill out the form below and our expert will contact you within 24 hours.</p>
+                </div>
+                
+                <div class="max-w-2xl mx-auto bg-white text-gray-900 p-8 md:p-10 rounded-lg shadow-2xl">
+                    <form id="inquiry-form">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="FullName" class="block mb-2 font-medium">Full Name <span class="text-red-600">*</span></label>
+                                <input type="text" name="FullName" id="FullName" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div>
+                                <label for="Phone" class="block mb-2 font-medium">Phone Number <span class="text-red-600">*</span></label>
+                                <input type="tel" name="Phone" id="Phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="Email" class="block mb-2 font-medium">Email Address</label>
+                            <input type="email" name="Email" id="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Optional, but recommended">
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <fieldset>
+                                <legend class="block mb-2 font-medium">I am interested in... <span class="text-red-600">*</span></legend>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="Interest" value="Renting" class="w-4 h-4 text-blue-600 focus:ring-blue-500" required>
+                                        <span class="ml-2">Renting</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="Interest" value="Buying" class="w-4 h-4 text-blue-600 focus:ring-blue-500">
+                                        <span class="ml-2">Buying</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="Interest" value="Selling" class="w-4 h-4 text-blue-600 focus:ring-blue-500">
+                                        <span class="ml-2">Selling</span>
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <div>
+                                <label for="PropertyType" class="block mb-2 font-medium">Property Type <span class="text-red-600">*</span></label>
+                                <select name="PropertyType" id="PropertyType" class="w-full px-4 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                                    <option value="">Select a type...</option>
+                                    <option value="Room">Room</option>
+                                    <option value="Flat">Flat</option>
+                                    <option value="Apartment">Apartment</option>
+                                    <option value="House">House</option>
+                                    <option value="Land">Land</option>
+                                    <option value="Shutter">Shutter</option>
+                                    <option value="Commercial Space">Commercial Space (Office, etc.)</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <fieldset class="mb-6">
+                            <legend class="block mb-3 font-medium">Preferred Area(s) in Dharan</legend>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Bhanu Chowk" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Bhanu Chowk</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Pubali (East)" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Pubali (East)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Pachali (West)" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Pachali (West)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Bargachhi" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Bargachhi</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Tinkune" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Tinkune</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Bijayapur" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Bijayapur</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Srijana Chowk" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Srijana Chowk</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Chatara Line" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Chatara Line</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="area" value="Any" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500">
+                                    <span class="ml-2 text-sm">Any/Not Sure</span>
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <div class="mb-6">
+                            <label for="Message" class="block mb-2 font-medium">Your Message</label>
+                            <textarea name="Message" id="Message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us more about your requirements..."></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="w-full bg-yellow-400 text-blue-900 font-bold px-8 py-3 rounded-md text-lg hover:bg-yellow-300 shadow-lg transition-all disabled:bg-gray-400 disabled:cursor-not-allowed">
+                                Send Inquiry
+                            </button>
+                        </div>
+                    </form>
+                    <!-- Message area for form status -->
+                    <div id="form-message" class="mt-4 text-center"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="current-year"></span> Dharan Properties. All rights reserved.</p>
+            <p class="text-sm mt-2">Your trusted partner in Dharan real estate.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // --- Form Submission Handling ---
+        const form = document.getElementById('inquiry-form');
+        const messageEl = document.getElementById('form-message');
+        const submitButton = form.querySelector('button[type="submit"]');
+
+        // 
+        // --- !!! IMPORTANT !!! ---
+        //
+        // 1. Follow the instructions in the 'google-script-setup.md' file.
+        // 2. You will get a 'Web App URL' after deploying your script.
+        // 3. Paste that URL here, replacing the placeholder.
+        //
+        const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE'; 
+        //
+        // --- !!! IMPORTANT !!! ---
+        //
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+                messageEl.textContent = 'Form is not configured. Please set the SCRIPT_URL in the HTML file.';
+                messageEl.className = 'mt-4 p-4 rounded-md bg-red-100 text-red-700';
+                return;
+            }
+
+            // Disable button and show loading text
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting...';
+            messageEl.textContent = '';
+            messageEl.className = '';
+
+            const formData = new FormData(form);
+
+            fetch(SCRIPT_URL, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    // Handle non-OK HTTP responses
+                    return response.json().then(errorData => {
+                        throw new Error(errorData.message || 'Network response was not ok.');
+                    });
+                }
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // Success
+                    messageEl.textContent = 'Inquiry sent successfully! We will contact you soon.';
+                    messageEl.className = 'mt-4 p-4 rounded-md bg-green-100 text-green-700';
+                    form.reset();
+                } else {
+                    // Handle errors returned by the script
+                    throw new Error(data.message || 'Submission failed. Please try again.');
+                }
+            })
+            .catch(error => {
+                // Handle fetch errors or errors thrown
+                messageEl.textContent = 'Error: ' + error.message;
+                messageEl.className = 'mt-4 p-4 rounded-md bg-red-100 text-red-700';
+            })
+            .finally(() => {
+                // Re-enable button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Send Inquiry';
+            });
+        });
+
+        // --- Smooth Scroll for Nav Links ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
